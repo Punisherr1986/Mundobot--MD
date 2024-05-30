@@ -5,7 +5,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   conn.tekateki = conn.tekateki ? conn.tekateki : {};
   const id = m.chat;
   if (id in conn.tekateki) {
-    conn.reply(m.chat, 'Todavía hay acertijos sin responder en este chat', conn.tekateki[id][0]);
+    conn.reply(m.chat, '『❕』Todavía hay acertijos sin resolver.', conn.tekateki[id][0]);
     throw false;
   }
   const tekateki = JSON.parse(fs.readFileSync(`./src/game/acertijo.json`));
@@ -15,8 +15,8 @@ const handler = async (m, {conn, usedPrefix}) => {
   const caption = `
 ⷮ *${json.question}*
 
-*🪁🌻 Tiempo:* ${(timeout / 1000).toFixed(2)} Segundos
-*🎋🌴 Bono:* +${poin} Exp
+*TIEMPO:* ${(timeout / 1000).toFixed(2)} Segundos
+*BONO:* +${poin} Exp
 `.trim();
   conn.tekateki[id] = [
     await conn.reply(m.chat, caption, m), json,
@@ -28,5 +28,5 @@ const handler = async (m, {conn, usedPrefix}) => {
 };
 handler.help = ['acertijo'];
 handler.tags = ['game'];
-handler.command = /^(acertijooo|acerttt|adivinanzaaa|tekatekiii)$/i;
+handler.command = /^(acertijo|acert|adivinanza|tekateki)$/i;
 export default handler;
