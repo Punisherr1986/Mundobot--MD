@@ -15,7 +15,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     }
     await conn.sendMessage(m.chat, { react: { text: '🎉', key: m.key } })
     const texto1 = `『🪐』𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙣𝙙𝙤...`.trim();
-    conn.sendMessage(m.chat, {image: {url: `https://telegra.ph/file/746b3c360204bdd859a0c.png`, caption: texto1}, {quoted: m});
+    conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play3' || command == 'playdoc') {
       try {
         const q = '128kbps';
