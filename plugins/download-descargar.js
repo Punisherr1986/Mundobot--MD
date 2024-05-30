@@ -11,7 +11,7 @@ let limit2 = 400;
 let limit_a1 = 50;
 let limit_a2 = 400;
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
- if (!text) return conn.reply(m.chat, `『🍁』𝙄𝙣𝙜𝙧𝙚𝙨𝙚 𝙪𝙣 𝙩𝙚𝙭𝙩𝙤 𝙤 𝙪𝙣 𝙚𝙣𝙡𝙖𝙘𝙚 𝙫𝙖𝙡𝙞𝙙𝙤 𝙙𝙚 𝙔𝙤𝙪𝙏𝙪𝙗𝙚.\n\n𝙋𝙤𝙧 𝙚𝙟𝙚𝙢𝙥𝙡𝙤:\n*${usedPrefix + command} Playamane - Midnight*`,  m, )
+ if (!text) return conn.reply(m.chat, `『🍁』𝙄𝙣𝙜𝙧𝙚𝙨𝙚 𝙪𝙣 𝙩𝙚𝙭𝙩𝙤 𝙤 𝙪𝙣 𝙚𝙣𝙡𝙖𝙘𝙚 𝙫𝙖𝙡𝙞𝙙𝙤 𝙙𝙚 𝙔𝙤𝙪𝙏𝙪𝙗𝙚.\n\n𝙋𝙤𝙧 𝙚𝙟𝙚𝙢𝙥𝙡𝙤:\n• *${usedPrefix + command} Playamane - Midnight*\n• *${usedPrefix + command} https://youtube.com/watch?v=NMxZcxbQ-Zg*`,  m, )
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
