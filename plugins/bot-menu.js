@@ -7,14 +7,11 @@ if (process.send) { process.send('uptime')
 _muptime = await new Promise(resolve => { process.once('message', resolve) 
 setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
-let estado = `Hola, bienvenido usuario/a
-seleccione los botones de abajo.`
-await conn.sendButton(m.chat, estado, `😃 𝗥𝗘𝗖𝗨𝗘𝗥𝗗𝗔 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗥𝗧𝗘 𝗖𝗢𝗡:\nAutoVerify\n🥳 𝗗𝗶𝘀𝗳𝗿𝘂𝘁𝗮 𝗱𝗲𝗹 𝗯𝗼𝘁 💯\n` + nameN3 + '\n' + nameNN2, pp, [
-['🍁 Menu Completo 🍁', '.menucompleto'],
-['🌎 Estado 🌎', '/estado'],
-['✅ AutoVerify ✅', '#reg NZsub.18']], null, [
-['Canal', `${channel}`],
-['NaufraZapp', `${creador}`]], m)
+let estado = `𝙉𝙖𝙪𝙛𝙧𝙖𝙕𝙖𝙥𝙥-𝙈𝘿:`
+await conn.sendButton(m.chat, estado, `Selecciona el boton de All Menu para ver el menu completo.`, pp, [
+['𝐀𝐋𝐋 𝐌𝐄𝐍𝐔 🎉', '.menucompleto'],
+['𝐆𝐑𝐔𝐏𝐎 🏆', '/gruponz']], null, [
+['Canal', `${channel}`]], m)
 }
 handler.help = ['estado']
 handler.tags = ['main']
