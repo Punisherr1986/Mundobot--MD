@@ -1,7 +1,7 @@
 /* By https://github.com/DIEGO-OFC/DORRAT-BOT-MD */
 
 const handler = async (m, {conn, text}) => {
-  m.reply(`*╔═══════════════════════════*\n➢ *"${pickRandom(global.piropo)}"*\n*╚═══════════════════════════*`);
+  m.reply(`Frase:\n*${pickRandom(global.piropo)}*`);
 };
 handler.tags = ['frases'];
 handler.command = ['piropo'];
