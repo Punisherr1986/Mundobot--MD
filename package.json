@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/AlanVAV/NaufraZapp-MD",
+  "homepage": "https://github.com/MultiBot-OfC/NaufraZapp-MD",
   "author": {
-    "name": "AlanVAV"
+    "name": "MultiBot-OfC"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlanVAV/NaufraZapp-MD.git"
+    "url": "git+https://github.com/MultiBot-OfC/NaufraZapp-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/AlanVAV/NaufraZapp-MD/issues"
+    "url": "https://github.com/MultiBot-OfC/NaufraZapp-MD/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
