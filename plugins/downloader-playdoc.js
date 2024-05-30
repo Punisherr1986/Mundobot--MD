@@ -4,7 +4,7 @@ import ytdl from 'ytdl-core';
 import axios from 'axios';
 import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
-  if (!text) throw `Ingrese cualquier nombre, por ejemplo:*\n*${usedPrefix + command} Erika Lundmoen - yad*`;
+  if (!text) throw `『🪐』𝙄𝙣𝙜𝙧𝙚𝙨𝙚 𝙚𝙡 𝙣𝙤𝙢𝙗𝙧𝙚 𝙤 𝙪𝙣 𝙚𝙣𝙡𝙖𝙘𝙚 𝙫𝙖𝙡𝙞𝙙𝙤 𝙙𝙚 𝙔𝙤𝙪𝙏𝙪𝙗𝙚.\n\n𝙋𝙤𝙧 𝙚𝙟𝙚𝙢𝙥𝙡𝙤:\n*${usedPrefix + command} Erika Lundmoen - yad*`;
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
@@ -13,10 +13,9 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'play4' || command == 'playdoc2') {
       additionalText = 'video';
     }
-    await conn.sendMessage(m.chat, { react: { text: '🔥', key: m.key } })
-    const texto1 = `
-⬇️ *_Descargando ${additionalText}, aguarde un momento．．．_*`.trim();
-    conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
+    await conn.sendMessage(m.chat, { react: { text: '🎉', key: m.key } })
+    const texto1 = `『🪐』𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙣𝙙𝙤...`.trim();
+    conn.sendMessage(m.chat, {image: {url: `https://telegra.ph/file/746b3c360204bdd859a0c.png`, caption: texto1}, {quoted: m});
     if (command == 'play3' || command == 'playdoc') {
       try {
         const q = '128kbps';
@@ -40,7 +39,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
             const ress = await ytdl.chooseFormat(infoo.formats, {filter: 'audioonly'});
             conn.sendMessage(m.chat, {audio: {url: ress.url}, fileName: __res[0].title + '.mp3', mimetype: 'audio/mp4'}, {quoted: m});
           } catch {
-            await conn.reply(m.chat, '⚠️ Ocurrio un error inesperado, intentalo de nuevo.', m);
+            await conn.reply(m.chat, '『❌』𝙊𝙘𝙪𝙧𝙧𝙞𝙤 𝙪𝙣 𝙚𝙧𝙧𝙤𝙧 𝙞𝙣𝙚𝙨𝙥𝙚𝙧𝙖𝙙𝙤, 𝙨𝙚𝙡𝙚𝙘𝙘𝙞𝙤𝙣𝙚 𝙤𝙩𝙧𝙤 𝙗𝙤𝙩𝙤𝙣 𝙥𝙤𝙧 𝙛𝙖𝙫𝙤𝙧.', m);
           }
         }
       }
@@ -69,13 +68,13 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
             const n4 = lolh.result.thumbnail;
             await conn.sendMessage(m.chat, {document: {url: n2}, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `*Titulo:* ${n}\n*Peso:* ${n3}`, thumbnail: await fetch(n4)}, {quoted: m});
           } catch {
-            await conn.reply(m.chat, '⚠️ Error, intentalo de nuevo por favor..', m);
+            await conn.reply(m.chat, '『❌』𝙀𝙧𝙧𝙤𝙧 𝙞𝙣𝙚𝙨𝙥𝙚𝙧𝙖𝙙𝙤, 𝙪𝙨𝙚 𝙤𝙩𝙧𝙤 𝙗𝙤𝙩𝙤𝙣 𝙙𝙚 𝙙𝙚𝙨𝙘𝙖𝙧𝙜𝙖 𝙤 𝙞𝙣𝙩𝙚𝙣𝙩𝙖 𝙙𝙚 𝙣𝙪𝙚𝙫𝙤.', m);
           }
         }
       }
     }
   } catch {
-    throw '⚠️ El comando fallo, reportelo por favor.';
+    throw '『🪐』𝘾𝙤𝙢𝙖𝙣𝙙𝙤 𝙛𝙖𝙡𝙡𝙖𝙙𝙤, 𝙧𝙚𝙥𝙤𝙧𝙩𝙖𝙡𝙤 𝙖𝙡 𝙘𝙧𝙚𝙖𝙙𝙤𝙧 𝙙𝙚𝙡 𝙗𝙤𝙩.';
   }
 };
 handler.help = ['play3', 'play4'].map((v) => v + ' < busqueda >');
@@ -192,48 +191,4 @@ async function ytPlayVid(query) {
       resolve(getVideo);
     }).catch(reject);
   });
-}
-
-
-// import { youtubeSearch } from '@bochilteam/scraper'
-// import fetch from 'node-fetch'
-// let handler = async (m, { conn, command, text, usedPrefix }) => {
-// if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Good Feeling - Flo Rida*`
-// try {
-// let vid = (await youtubeSearch(text)).video[0]
-// let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
-// const urll = 'https://www.youtube.com/watch?v=' + videoId
-// var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
-// var document = doc[Math.floor(Math.random() * doc.length)]
-// const buttons = [
-// { buttonId: `#ytmp3doc ${urll}`, buttonText: { displayText: '🎵 𝐀𝐔𝐃𝐈𝐎𝐃𝐎𝐂 🎵' }, type: 1 },
-// { buttonId: `#ytmp4doc ${urll}`, buttonText: { displayText: '🎥 𝐕𝐈𝐃𝐄𝐎𝐃𝐎𝐂 🎥' }, type: 1 },
-// { buttonId: `#playlist ${text}`, buttonText: { displayText: '📋 𝐌𝐀𝐒 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎𝐒 📋' }, type: 1 }, ]
-// let texto1 = `*◉—⌈🔊 𝐏𝐋𝐀𝐘 𝐃𝐎𝐂𝐔𝐌𝐄𝐍𝐓 🔊⌋—◉*\n
-// ❏ 📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${title}
-// ❏ 📆 *𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙳𝙾:* ${publishedTime}
-// ❏ ⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${durationH}
-// ❏ 👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
-// ❏ 📇 *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* ${description}
-// ❏ 🔗 *𝙻𝙸𝙽𝙺:* ${urll}`.trim()
-// let buttonMessage = { "document": { url: "https://wa.me/5219992095479" }, "fileName": '❏ 🌿 ʀᴇᴘʀᴏᴅᴜᴄᴛᴏʀ ᴅᴇ ʏᴏᴜᴛᴜʙᴇ', "mimetype": 'application/vnd.ms-excel', "caption": texto1, "fileLength": '99999999999999', "mentions": [m.sender], "footer": wm, "buttons": buttons, "headerType": 4, contextInfo: { "mentionedJid": [m.sender], "externalAdReply": { "showAdAttribution": true, "title": `${title}`, "mediaType": 2, "previewType": "VIDEO", "thumbnail": await (await fetch(thumbnail)).buffer(), "mediaUrl": `${urll}`, "sourceUrl": `https://github.com/BrunoSobrino/TheMystic-Bot-MD` }}}
-// conn.sendMessage(m.chat, buttonMessage, { quoted: m })
-// } catch {
-// try {
-// let vid2 = await (await fetch(`https://api.lolhuman.xyz/api/ytsearch?apikey=${lolkeysapi}&query=${text}`)).json()
-// let { videoId, title, views, published, thumbnail } = await vid2.result[0]
-// const url = 'https://www.youtube.com/watch?v=' + videoId
-// let ytLink = await fetch(`https://api.lolhuman.xyz/api/ytplay2?apikey=${lolkeysapi}&query=${text}`)
-// let jsonn = await ytLink.json()
-// let aud = await jsonn.result.audio
-// let capt = `❏ 📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${title}\n❏ 📆 *𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙳𝙾:* ${published}\n❏ 👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${views}\n❏ 🔗 *𝙻𝙸𝙽𝙺:* ${url}`
-// const buttons = [{buttonId: `#playlist ${title}`, buttonText: {displayText: '📋 𝐌𝐀𝐒 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎𝐒 📋'}, type: 1}]
-// const buttonMessage = { image: {url: thumbnail}, caption: capt, footer: '*ᴇɴᴠɪᴀɴᴅᴏ ᴀᴜᴅɪᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*', buttons: buttons, headerType: 4 }
-// let msg = await conn.sendMessage(m.chat, buttonMessage, { quoted: m })
-// conn.sendMessage(m.chat, { document: { url: aud }, mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, {quoted: msg})
-// } catch {
-// throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*'}}}
-// handler.help = ['playdoc', 'play3'].map(v => v + ' <pencarian>')
-// handler.tags = ['downloader']
-// handler.command = /^play3|playdoc?$/i
-// export default handler
+                                    }
