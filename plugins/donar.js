@@ -26,17 +26,17 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `
-👋🏻 Hola ${user}
-gracias por apoyarnos en este proyecto
-nos alegra saber que hayas colaborado. ❤️
+*👋🏻 Hola* ${taguser}
+> 🫂gracias por querer apoyar en este maravilloso proyecto, su colaboración nos ayudará a trabajar constantemente en las futuras actualizaciones del bot y también para las constantes mejoras❤️
+𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𒁂𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𒁂𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣
+✅𝙋𝙖𝙮𝙋𝙖𝙡
+https://www.paypal.me/naufrazapp
+𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𒁂𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𒁂𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣𖣣
+Recuerde que también puede apoyar si se subscribe a nuestro canal oficial de Youtube, *no le costará nada*
 
-PayPal:
-${paypal}
+https://youtube.com/@Botnaufrazapp?si=qZ4FMISJaO4CvZI7
 
-Mandar captura:
-${asistencia}
-
-ante este caso, te regalamos el bot en tu grupo por haber colaborado.`.trim();     if (m.isGroup) { 
+𝙂𝙍𝘼𝘾𝙄𝘼𝙎🤗`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
