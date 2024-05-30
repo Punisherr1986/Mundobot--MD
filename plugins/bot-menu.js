@@ -9,8 +9,7 @@ setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado = `𝙉𝙖𝙪𝙛𝙧𝙖𝙕𝙖𝙥𝙥-𝙈𝘿:`
 await conn.sendButton(m.chat, estado, `Selecciona el boton de All Menu para ver el menu completo.`, pp, [
-['𝐀𝐋𝐋 𝐌𝐄𝐍𝐔 🎉', '.menucompleto'],
-['𝐆𝐑𝐔𝐏𝐎 🏆', '/gruponz']], null, [
+['𝐀𝐋𝐋 𝐌𝐄𝐍𝐔 🎉', '.menucompleto']], null, [
 ['Canal', `${channel}`]], m)
 }
 handler.help = ['estado']
