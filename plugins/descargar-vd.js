@@ -10,6 +10,9 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 	m.react('🎉') 
   let play = `
 『👀』𝙀𝙣𝙘𝙤𝙣𝙩𝙧𝙖𝙙𝙤!!! 🎉
+DURACION: ${vid.timestamp}
+VISTAS: ${vid.views.toLocaleString()}
+LINK: ${url}
 ▫ •─────────────• ▫ 
 𝙋𝙖𝙧𝙖 𝙫𝙚𝙧 𝙢𝙖𝙨 𝙫𝙞𝙙𝙚𝙤𝙨 𝙘𝙤𝙢𝙤
 𝙚𝙨𝙩𝙚, 𝙪𝙨𝙚 𝙚𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤:
