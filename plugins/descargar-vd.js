@@ -9,14 +9,13 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 	//const url = 'https://www.youtube.com/watch?v=' + videoId
 	m.react('🎉') 
   let play = `
-『👀』𝙀𝙣𝙘𝙤𝙣𝙩𝙧𝙖𝙙𝙤!!! 🎉
-DURACION: ${vid.timestamp}
-VISTAS: ${vid.views.toLocaleString()}
-LINK: ${url}
-▫ •─────────────• ▫ 
-𝙋𝙖𝙧𝙖 𝙫𝙚𝙧 𝙢𝙖𝙨 𝙫𝙞𝙙𝙚𝙤𝙨 𝙘𝙤𝙢𝙤
-𝙚𝙨𝙩𝙚, 𝙪𝙨𝙚 𝙚𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤:
-${usedPrefix}playlist ${vid.title}`
+🪐 𝗧𝗶𝘁𝘂𝗹𝗼: ${vid.title}
+
+🌌 𝗗𝘂𝗿𝗮𝗰𝗶𝗼𝗻: ${vid.timestamp}
+
+🪐 𝗩𝗶𝘀𝘁𝗮𝘀: ${vid.views.toLocaleString()}
+
+🌌 𝗟𝗶𝗻𝗸: ${url}`
  await conn.sendButton(m.chat, play, wm, thumbnail, [
     ['𝐀𝐔𝐃𝐈𝐎 🎶', `${usedPrefix}playaudio ${url}`],
     ['𝐕𝐈𝐃𝐄𝐎 📹', `${usedPrefix}playvideo ${url}`],
