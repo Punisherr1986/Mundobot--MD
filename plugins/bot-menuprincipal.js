@@ -48,12 +48,12 @@ let estado = `┍━━━━━━━━━━━━━━━━━━━•�
 └•⌕ *velocidad del bot*
 ┌• ${usedPrefix}instalarbot
 └•⌕ *instalar el bot*
-┌• ${usedPrefix}menu
+┌• ${usedPrefix}menucompleto
 └•⌕ *Menu de lista*
 
 
 ┍━━━━━━━━━━━━━━━━━━━•𖥔 ࣪˖
-│「🌎ִֶָ 𖥔 ࣪˖𝑺𝒆𝒓 𝑩𝒐𝒕 𝑵𝒁ִֶָ 𖥔 ࣪˖🌎」
+│「🤖ִֶָ 𖥔 ࣪˖𝑺𝒆𝒓 𝑩𝒐𝒕 𝑵𝒁ִֶָ 𖥔 ࣪˖🤖」
 ┕━━━━━━━━━━━━━━━━━━━•𖥔 ࣪˖
 ┌• ${usedPrefix}nzcode
 └•⌕ *Registra con código de 8 dígitos*
@@ -84,8 +84,6 @@ let estado = `┍━━━━━━━━━━━━━━━━━━━•�
 └•⌕ *user*
 ┌• ${usedPrefix}igstory
 └•⌕ *enlace*
-┌• ${usedPrefix}imagen
-└•⌕ *texto*
 ┌• ${usedPrefix}mediafire
 └•⌕ *enlace*
 ┌• ${usedPrefix}apk
@@ -126,6 +124,36 @@ let estado = `┍━━━━━━━━━━━━━━━━━━━•�
 └•⌕ *texto*
 ┌• ${usedPrefix}twitter
 └•⌕ *enlace*
+
+
+┍━━━━━━━━━━━━━━━━━━━•𖥔 ࣪˖
+│「🌎ִֶָ 𖥔 ࣪𝑩𝒖𝒔𝒄𝒂𝒅𝒐𝒓𝒆𝒔 𖥔 ࣪˖🌎」
+┕━━━━━━━━━━━━━━━━━━━•𖥔 ࣪˖
+┌• ${usedPrefix}bard
+└•⌕ *texto*
+┌• ${usedPrefix}chatgpt
+└•⌕ *texto*
+┌• ${usedPrefix}ia
+└•⌕ *texto*
+┌• ${usedPrefix}chatgptvoz
+└•⌕ *texto*
+┌• ${usedPrefix}dalle
+└•⌕ *texto*
+┌• ${usedPrefix}imagen
+└•⌕ *texto*
+┌• ${usedPrefix}wallpaper
+└•⌕ *texto*
+┌• ${usedPrefix}clima
+└•⌕ *ciudad, país*
+┌• ${usedPrefix}tiempo
+└•⌕ *ciudad, país*
+
+
+┍━━━━━━━━━━━━━━━━━━━•𖥔 ࣪˖
+│「✅ִֶָ 𖥔 ࣪˖𝑭𝒖𝒏𝒄𝒊𝒐𝒏𝒆𝒔 𝒐𝒏/𝒐𝒇𝒇ִֶָ 𖥔 ࣪˖✅」
+┕━━━━━━━━━━━━━━━━━━━•𖥔 ࣪˖
+┌• ${usedPrefix}funcs
+└•⌕ *muestra las funciones.*
 
 
 ┍━━━━━━━━━━━━━━━━━━━•𖥔 ࣪˖
@@ -226,10 +254,8 @@ let estado = `┍━━━━━━━━━━━━━━━━━━━•�
 
 
 ┍━━━━━━━━━━━━━━━━━━━•𖥔 ࣪˖
-│「🧰ִֶָ 𖥔 ࣪˖𝑯𝒆𝒓𝒓𝒂𝒎𝒊𝒆𝒏𝒕𝒂𝒔ִֶָ 𖥔 ࣪˖🧰」
+│「⚙️ִֶָ 𖥔 ࣪˖𝑯𝒆𝒓𝒓𝒂𝒎𝒊𝒆𝒏𝒕𝒂𝒔ִֶָ 𖥔 ࣪˖⚙️」
 ┕━━━━━━━━━━━━━━━━━━━•𖥔 ࣪˖
-┌• ${usedPrefix}bard
-└•⌕ *texto*
 ┌• ${usedPrefix}acortar
 └•⌕ *enlace* 
 ┌• ${usedPrefix}short
@@ -240,18 +266,6 @@ let estado = `┍━━━━━━━━━━━━━━━━━━━•�
 └•⌕ *video, img*
 ┌• ${usedPrefix}calc
 └•⌕ *235 × 400*
-┌• ${usedPrefix}chatgpt
-└•⌕ *texto*
-┌• ${usedPrefix}delchatgpt
-└•⌕ *eliminar sesion*
-┌• ${usedPrefix}chatgptvoz
-└•⌕ *texto*
-┌• ${usedPrefix}clima
-└•⌕ *ciudad, país*
-┌• ${usedPrefix}tiempo
-└•⌕ *ciudad, país*
-┌• ${usedPrefix}dalle
-└•⌕ *texto*
 ┌• ${usedPrefix}dropmail
 └•⌕ *configurar*
 ┌• ${usedPrefix}poll
@@ -312,6 +326,57 @@ let estado = `┍━━━━━━━━━━━━━━━━━━━•�
 └•⌕ *buscar musica*
 ┌• ${usedPrefix}whatmusic
 └•⌕ *buscar musica*
+
+
+┍━━━━━━━━━━━━━━━━━━━•𖥔 ࣪˖
+│「🎮ִֶָ 𖥔 ࣪˖𝑱𝒖𝒆𝒈𝒐𝒔ִֶָ 𖥔 ࣪˖🎮」
+┕━━━━━━━━━━━━━━━━━━━•𖥔 ࣪˖
+┌• ${usedPrefix}bot
+└•⌕ *texto.*
+┌• ${usedPrefix}dado
+└•⌕ *Dado.*
+┌• ${usedPrefix}piropo
+└•⌕ *Piropo.*
+┌• ${usedPrefix}acertijo
+└•⌕ *Acertijo.*
+┌• ${usedPrefix}meme
+└•⌕ *Memes.*
+┌• ${usedPrefix}messi
+└•⌕ *Fotos de messi.*
+┌• ${usedPrefix}blackpink
+└•⌕ *Fotos de blackpink*
+┌• ${usedPrefix}navidad
+└•⌕ *Fotos navideñas*
+┌• ${usedPrefix}cr7
+└•⌕ *Fotos de cr7.*
+┌• ${usedPrefix}consejo
+└•⌕ *consejo del dia.*
+┌• ${usedPrefix}fraseromantica
+└•⌕ *frases.*
+┌• ${usedPrefix}historiaromantica
+└•⌕ *Historias.*
+
+
+
+┍━━━━━━━━━━━━━━━━━━━•𖥔 ࣪˖
+│「💥ִֶָ 𖥔 ࣪˖𝑪𝒐𝒏𝒗𝒆𝒓𝒕𝒊𝒅𝒐𝒓𝒆𝒔ִֶָ 𖥔 ࣪˖💥」
+┕━━━━━━━━━━━━━━━━━━━•𖥔 ࣪˖
+┌• ${usedPrefix}toimg
+└•⌕ *Responde a sticker.*
+┌• ${usedPrefix}jpg
+└•⌕ *Responde a sticker.*
+┌• ${usedPrefix}toaudio
+└•⌕ *Guardar video.*
+┌• ${usedPrefix}tourl
+└•⌕ *Guardar sticker.*
+┌• ${usedPrefix}tts
+└•⌕ *Guardar audio.*
+┌• ${usedPrefix}toanime
+└•⌕ *Guardar img.*
+┌• ${usedPrefix}s
+└•⌕ *Imagen o video*
+┌• ${usedPrefix}sticker
+└•⌕ *Imagen o video*
 
 
 ┍━━━━━━━━━━━━━━━━━━━•𖥔 ࣪˖
