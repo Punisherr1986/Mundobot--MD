@@ -15,10 +15,10 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 𝙚𝙨𝙩𝙚, 𝙪𝙨𝙚 𝙚𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤:
 ${usedPrefix}playlist ${vid.title}`
  await conn.sendButton(m.chat, play, wm, thumbnail, [
-    ['𝐀𝐔𝐃𝐈𝐎 🪐', `${usedPrefix}playaudio ${url}`],
-    ['𝐕𝐈𝐃𝐄𝐎 🪐', `${usedPrefix}playvideo ${url}`],
-    ['𝐀𝐔𝐃𝐈𝐎 𝐃𝐎𝐂 📦', `${usedPrefix}playdoc ${url}`],
-    ['𝐕𝐈𝐃𝐄𝐎 𝐃𝐎𝐂 📦', `${usedPrefix}playdoc2 ${url}`],
+    ['𝐀𝐔𝐃𝐈𝐎 🎶', `${usedPrefix}playaudio ${url}`],
+    ['𝐕𝐈𝐃𝐄𝐎 📹', `${usedPrefix}playvideo ${url}`],
+    ['𝐀𝐔𝐃𝐈𝐎 𝐃𝐎𝐂 🔥', `${usedPrefix}playdoc ${url}`],
+    ['𝐕𝐈𝐃𝐄𝐎 𝐃𝐎𝐂 💥', `${usedPrefix}playdoc2 ${url}`],
  ], null, [['Canal', `${channel}`]], m)
 }
 handler.help = ['play']
