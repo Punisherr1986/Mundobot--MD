@@ -17,7 +17,7 @@ if (!img) throw `*『✦』Responda a una imagen, video o gif para convertirlo e
 
 let out
 try {
-stiker = await sticker(img, false, global.packname, global.author)
+stiker = await sticker(img, false, global.stickwm, global.stickem)
 } catch (e) {
 console.error(e)
 } finally {
@@ -26,10 +26,10 @@ if (/webp/g.test(mime)) out = await webp2png(img)
 else if (/image/g.test(mime)) out = await uploadImage(img)
 else if (/video/g.test(mime)) out = await uploadFile(img)
 if (typeof out !== 'string') out = await uploadImage(img)
-stiker = await sticker(false, out, global.packname, global.author)
+stiker = await sticker(false, out, global.stickwm, global.stickem2)
 }}
 } else if (args[0]) {
-if (isUrl(args[0])) stiker = await sticker(false, args[0], global.packname, global.author)
+if (isUrl(args[0])) stiker = await sticker(false, args[0], global.stickwm, global.stickem)
 
 else return m.reply(`URL invalido`)
 
@@ -38,7 +38,7 @@ else return m.reply(`URL invalido`)
 console.error(e)
 if (!stiker) stiker = e
 } finally {
-if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: ``, mediaType: 2, sourceUrl: [gp1, channel, md, fb].getRandom(), thumbnail: imagen6}}}, { quoted: m })
+if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: ``, mediaType: 2, sourceUrl: [gp1, channel, md, fb].getRandom(), thumbnail: menusImgs4}}}, { quoted: m })
 
 else throw `*『✦』Ocurrio un error inesperado, inténtelo de nuevo por favor.*`
 
