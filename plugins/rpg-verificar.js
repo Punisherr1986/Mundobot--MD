@@ -30,8 +30,6 @@ ${name}
 「📆」𝗘𝗱𝗮𝗱:
 ${age} años
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
-> Para ver tu numero de serie, use el comando: \`#myns\`
-
 ⁿᵃᵘᶠʳᵃᶻᵃᵖᵖ`
 conn.sendMessage(m.chat, {
 text: regbot,
