@@ -20,7 +20,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.registered = true
 let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
 //m.react('📩') 
-  let img = await (await fetch('https://telegra.ph/file/516ff7b7c47cbf5b58a38.png')).buffer()  
+  let img = menusImgs4  
   await conn.sendMessage(m.chat, { react: { text: '✅', key: m.key } })
 let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
@@ -43,7 +43,7 @@ thumbnailUrl: img,
 sourceUrl: 'https://atom.bio/exotico-ofc',
 mediaType: 1,
 showAdAttribution: true,
-renderLargerThumbnail: true
+renderLargerThumbnail: false
 }}}, { quoted: m })
 await m.reply(`${sn}`)        
 }
