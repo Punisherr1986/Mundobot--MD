@@ -43,7 +43,7 @@ thumbnailUrl: img,
 sourceUrl: 'https://atom.bio/exotico-ofc',
 mediaType: 1,
 showAdAttribution: true,
-renderLargerThumbnail: false
+renderLargerThumbnail: true,
 }}}, { quoted: m })
 await m.reply(`${sn}`)        
 }
