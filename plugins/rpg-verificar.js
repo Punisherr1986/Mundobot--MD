@@ -20,7 +20,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.registered = true
 let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
 //m.react('📩') 
-let img = menusImgs4
+let img = menusImgs4;
   await conn.sendMessage(m.chat, { react: { text: '✅', key: m.key } })
 let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
@@ -31,9 +31,20 @@ ${name}
 ${age} años
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 ⁿᵃᵘᶠʳᵃᶻᵃᵖᵖ`
-conn.sendButton(m.chat, regbot, wm, img, [['MENU COMPLETO', `/menucompleto`]], null, [['Canal YT', `${channel}`]], m)
-}
+conn.sendMessage(m.chat, {
+text: regbot,
+contextInfo: {
+externalAdReply: {
+title: '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰',
+body: 'Ya estas registrado/a en NaufraZapp-MD', 
+thumbnaiUrl: img, 
+sourceUrl: `https://youtube.com/@naufrazapp_empresas?si=jW7QACctxQLT-8Ab`,
+mediaType: 1,
+showAdAttribution: true,
+renderLargerThumbnail: true,
+}}}, { quoted: m })
 await m.reply(`${sn}`)        
+}
 handler.help = ['reg'].map(v => v + ' <nombre.edad>')
 handler.tags = ['rg']
 
