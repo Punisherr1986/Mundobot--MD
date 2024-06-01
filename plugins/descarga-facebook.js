@@ -1,5 +1,6 @@
 import fetch from 'node-fetch';
 import { savefrom, facebookdl, facebookdlv2 } from '@bochilteam/scraper';
+let enviando = false;
 
 const handler = async (m, {conn, args, command, usedPrefix}) => {
   if (!args[0]) throw `_*🪐 Ingrese un enlace valido de Facebook.*_\n\n*Por ejemplo:* _${usedPrefix + command} https://fb.watch/fOTpgn6UFQ/_`;
