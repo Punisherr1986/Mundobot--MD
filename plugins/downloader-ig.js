@@ -1,63 +1,16 @@
-import fetch from 'node-fetch'
-import axios from 'axios'
-import instagramGetUrl from 'instagram-url-direct'
-import { instagram } from '@xct007/frieren-scraper'
-import { instagramdl } from '@bochilteam/scraper'
+import Scraper from '@SumiFX/Scraper'
 
-var handler = async (m, {conn, args, command, usedPrefix}) => {
-
-if (!args[0]) return conn.reply(m.chat, `『🎉』𝙄𝙣𝙜𝙧𝙚𝙨𝙚 𝙪𝙣 𝙚𝙣𝙡𝙖𝙘𝙚 𝙫𝙖𝙡𝙞𝙙𝙤 𝙙𝙚 𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢.\n\n𝙋𝙤𝙧 𝙚𝙟𝙚𝙢𝙥𝙡𝙤: *${usedPrefix + command} https://www.instagram.com/reel/CuqAzGRAbZa/?igshid=MzRlODBiNWFlZA==*`, m )
-conn.reply(m.chat, `𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙣𝙙𝙤...`, m )
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+if (!args[0]) return m.reply('Ingresa el enlace del vídeo de Instagram junto al comando.\n\n`Ejemplo:`\n' + `> *${usedPrefix + command}* https://www.instagram.com/reel/CijhxhAD53X/?igsh=amJqMDQ1cW9zOG9s`)
 
 try {
-
-let apiUrll = `https://api.betabotz.org/api/download/igdowloader?url=${encodeURIComponent(args[0])}&apikey=bot-secx3`
-let responsel = await axios.get(apiUrll)
-let resultl = responsel.data
-for (const item of resultl.message) {
-let shortUrRRl = await (await fetch(`https://tinyurl.com/api-create.php?url=${item.thumbnail}`)).text()
-let tXXxt = `『🎬』𝘼𝙦𝙪𝙞 𝙩𝙞𝙚𝙣𝙚 𝙨𝙪 𝙫𝙞𝙙𝙚𝙤.`.trim()
-conn.sendFile(m.chat, item._url, null, tXXxt, fkontak, m)
-await new Promise((resolve) => setTimeout(resolve, 10000))
-} 
-} catch { 
-try { 
-let datTa = await instagram.v1(args[0])
-for (const urRRl of datTa) {
-let shortUrRRl = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text()
-let tXXxt = `『🎬』𝘼𝙦𝙪𝙞 𝙩𝙞𝙚𝙣𝙚 𝙨𝙪 𝙫𝙞𝙙𝙚𝙤.`.trim()
-conn.sendFile(m.chat, urRRl.url, 'error.mp4', tXXxt, fkontak, m)
-await new Promise((resolve) => setTimeout(resolve, 10000))
-}
+let { dl_url } = await Scraper.igdl(args[0])
+await conn.sendMessage(m.chat, { video: { url: dl_url }, caption: null }, { quoted: m})
 } catch {
-try {
-let resultss = await instagramGetUrl(args[0]).url_list[0]
-let shortUrl2 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text()
-let txt2 = `『🎬』𝘼𝙦𝙪𝙞 𝙩𝙞𝙚𝙣𝙚 𝙨𝙪 𝙫𝙞𝙙𝙚𝙤.`.trim()
-await conn.sendFile(m.chat, resultss, 'error.mp4', txt2, m)
-} catch {
-try {
-let resultssss = await instagramdl(args[0])
-let shortUrl3 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text()
-let txt4 = `『🎬』𝘼𝙦𝙪𝙞 𝙩𝙞𝙚𝙣𝙚 𝙨𝙪 𝙫𝙞𝙙𝙚𝙤.`.trim()
-for (const {url} of resultssss) await conn.sendFile(m.chat, url, 'error.mp4', txt4, m)
-} catch {
-try {
-let human = await fetch(`https://api.lolhuman.xyz/api/instagram?apikey=${lolkeysapi}&url=${args[0]}`)
-let json = await human.json()
-let videoig = json.result
-let shortUrl1 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text()
-let txt1 = `『🎬』𝘼𝙦𝙪𝙞 𝙩𝙞𝙚𝙣𝙚 𝙨𝙪 𝙫𝙞𝙙𝙚𝙤.`.trim()
-await conn.sendFile(m.chat, videoig, 'error.mp4', txt1, m)
-} catch {
-return conn.reply(m.chat, '❌ ERROR, INTENTALO DE NUEVO.', m)
-}}}}} 
-
-}
-handler.help = ['ig']
-handler.tags = ['descargas']
-handler.command = /^(instagramdl|instagram|igdl|ig|instagramdl2|instagram2|igdl2|ig2|instagramdl3|instagram3|igdl3|ig3)$/i
-
-handler.register = true
-
+}}
+handler.help = ['instagram <url ig>']
+handler.tags = ['downloader']
+handler.command = ['ig', 'igdl', 'instagram']
+handler.register = false 
+//handler.limit = 1
 export default handler
