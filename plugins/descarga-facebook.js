@@ -1,5 +1,4 @@
 import fetch from 'node-fetch';
-import { savefrom, facebookdl, facebookdlv2 } from '@bochilteam/scraper';
 let enviando = false;
 
 const handler = async (m, {conn, args, command, usedPrefix}) => {
