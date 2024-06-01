@@ -31,20 +31,9 @@ ${name}
 ${age} años
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 ⁿᵃᵘᶠʳᵃᶻᵃᵖᵖ`
-conn.sendMessage(m.chat, {
-text: regbot,
-contextInfo: {
-externalAdReply: {
-title: '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰',
-body: 'Ya estas registrado/a en NaufraZapp-MD', 
-thumbnaiUrl: img, 
-sourceUrl: `https://youtube.com/@naufrazapp_empresas?si=jW7QACctxQLT-8Ab`,
-mediaType: 1,
-showAdAttribution: true,
-renderLargerThumbnail: true,
-}}}, { quoted: m })
-await m.reply(`${sn}`)        
+conn.sendButton(m.chat, regbot, wm, img, [['MENU COMPLETO', `/menucompleto`]], null, [['Canal YT', `${channel}`]], m)
 }
+await m.reply(`${sn}`)        
 handler.help = ['reg'].map(v => v + ' <nombre.edad>')
 handler.tags = ['rg']
 
