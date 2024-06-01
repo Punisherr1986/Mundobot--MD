@@ -559,7 +559,7 @@ await conn.sendButton(m.chat, estado, wm, pp, [
 }
 handler.help = ['estado']
 handler.tags = ['main']
-handler.command = /^(menucompleto)$/i
+handler.command = /^(menucompleto|allmenu)$/i
 export default handler
 
 function clockString(ms) {
