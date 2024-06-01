@@ -44,7 +44,7 @@ sourceUrl: 'https://atom.bio/exotico-ofc',
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
-}}}, { quoted: fkontak })
+}}}, { quoted: m })
 await m.reply(`${sn}`)        
 }
 handler.help = ['reg'].map(v => v + ' <nombre.edad>')
