@@ -3,7 +3,6 @@ let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
 let handler = async function (m, { conn, text, usedPrefix, command }) {
   let user = global.db.data.users[m.sender]
   let name2 = conn.getName(m.sender)
-  let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
   let pp = await this.profilePictureUrl(who, 'image').catch(_ => 'https://i.postimg.cc/Bbg6n5zQ/IMG-20240421-WA0274.jpg')
   if (user.registered === true) throw `*『✦』Ya estas registrado, para volver a registrarte, usa el comando: #myns*`
   if (!Reg.test(text)) throw `*『✦』El comando ingresado es incorrecto, uselo de la siguiente manera:*\n\n#reg *Nombre.edad*\n\n\`\`\`Ejemplo:\`\`\`\n#reg *Naufrago.19*`
@@ -20,7 +19,8 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.registered = true
 let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
 //m.react('📩') 
-  let img = menusImgs4 
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let img = await conn.profilePictureUrl(who, 'image').catch((_) => menusImgs4)
   await conn.sendMessage(m.chat, { react: { text: '✅', key: m.key } })
 let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
