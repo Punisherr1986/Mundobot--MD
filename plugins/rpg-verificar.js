@@ -38,7 +38,7 @@ externalAdReply: {
 title: '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰',
 body: 'Ya estas registrado/a en NaufraZapp-MD', 
 thumbnaiUrl: img, 
-sourceUrl: `${channel}`,
+sourceUrl: `https://youtube.com/@naufrazapp_empresas?si=jW7QACctxQLT-8Ab`,
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true,
