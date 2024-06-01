@@ -38,9 +38,9 @@ text: regbot,
 contextInfo: {
 externalAdReply: {
 title: '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰',
-body: wm, 
+body: 'Ya estas registrado/a en NaufraZapp-MD, 
 thumbnailUrl: img, 
-sourceUrl: 'https://atom.bio/exotico-ofc',
+sourceUrl: channel,
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true,
