@@ -26,7 +26,7 @@ global.sk = '𝑩𝒐𝒕 𝒃𝒚: 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥';
 global.titulowm = '⋆❲⊹⊰ 𝙉𝙖𝙪𝙛𝙧𝙖𝙕𝙖𝙥𝙥 ⊱⊹❳⋆';
 global.titulowm2 = `⋆ ⌑ 𝙉𝙖𝙪𝙛𝙧𝙖𝙜𝙤 ⌑ ⋆`
 global.igfg = '🅽︎𝗮𝘂𝗳𝗿𝗮🆉𝗮𝗽𝗽︎';
-global.vs = '1.9.5';
+global.vs = '2.0.0';
 global.vsJB = '1.0.2';
 
 var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Linda Mañana'; break; case 1: hour = 'Linda Mañana'; break; case 2: hour = 'Linda Mañana'; break; case 3: hour = 'Linda Mañana'; break; case 4: hour = 'linda mañana'; break; case 5: hour = 'Linda Mañana'; break; case 6: hour = 'Linda Mañana'; break; case 7: hour = 'Linda Mañana'; break; case 8: hour = 'Linda Mañana'; break; case 9: hour = 'Linda Mañana'; break; case 10: hour = 'Lindo Dia'; break; case 11: hour = 'Lindo Dia'; break; case 12: hour = 'Lindo Dia'; break; case 13: hour = 'Lindo Dia'; break; case 14: hour = 'Linda Tarde'; break; case 15: hour = 'Linda Tarde'; break; case 16: hour = 'Linda Tarde'; break; case 17: hour = 'Linda Tarde'; break; case 18: hour = 'Linda Noche'; break; case 19: hour = 'Linda Noche'; break; case 20: hour = 'Linda Noche'; break; case 21: hour = 'Linda Noche'; break; case 22: hour = 'Linda Noche'; break; case 23: hour = 'Linda Noche'; break;}
