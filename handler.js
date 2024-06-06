@@ -6,7 +6,7 @@ import path, { join } from 'path'
 import { unwatchFile, watchFile } from 'fs'
 import chalk from 'chalk'   
 import fetch from 'node-fetch'
-import './CONECTOR/code.js'
+import './plugins/code.js'
  
 /**
  * @type {import('@adiwajshing/baileys')}  
