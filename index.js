@@ -1,4 +1,4 @@
-console.log('Iniciando...')
+console.log('💭 Iniciando el bot, espere un momento...')
 import { join, dirname } from 'path'
 import { createRequire } from 'module'
 import { fileURLToPath } from 'url'
@@ -15,14 +15,14 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('NaufraZapp\nMD\nWhatsApp', {
+say('Bienvenido\na\nNaufraZapp', {
 font: 'block',
 align: 'center',
-colors: ['cyan', 'blue']
+colors: ['cyan', 'whiteBright']
 })
-say(`Creado por: Bots-WhatsApp-OFC`, {
+say(`NAUFRAZAPP - MD`, {
 font: 'console',
-gradient: ['blue', 'magenta']
+gradient: ['green', 'magenta']
 })
 
 var isRunning = false
@@ -58,7 +58,7 @@ break
 })
 p.on('exit', (_, code) => {
 isRunning = false
-console.error('⚠️ Ocurrió un error inesperado:', code)
+console.error('🚫 Ocurrió un error inesperado:', code)
 process.exit();
 if (code === 0) return
 watchFile(args[0], () => {
@@ -74,3 +74,4 @@ p.emit('message', line.trim())
 }
 
 start('main.js')
+  
