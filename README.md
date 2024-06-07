@@ -57,3 +57,5 @@ npm start
 [![YouTube](https://img.shields.io/badge/Canal_de_Youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@naufrazapp_bots?si=iZbDpSK_pqT9uXiW)
 
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@naufra.zapp?_t=8n0fhoHsKHu&_r=1)
+
+[![WhatsApp](https://img.shields.io/badge/Grupo_para_probar_el_bot-00802f?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/LDUytyPxHLMH7LAjmH2ppr)
