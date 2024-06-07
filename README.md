@@ -48,4 +48,4 @@ npm start
 
 # 💥CONTÁCTAME💥
 
-[![WhatsApp](https://img.shields.io/badge/Naufrazapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/51929838430) <img src="https://raw.githubusercontent.com/Bots-WhatsApp-OFC/Bots-WhatsApp-OFC/master/accesos/iconos/whatsapp.gif" width="30">
+[![WhatsApp](https://img.shields.io/badge/Naufrazapp-00802f?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/51929838430) <img src="https://raw.githubusercontent.com/Bots-WhatsApp-OFC/Bots-WhatsApp-OFC/master/accesos/iconos/whatsapp.gif" width="30">
