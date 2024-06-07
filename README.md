@@ -47,3 +47,5 @@ npm start
 ```
 
 # 💥CONTÁCTAME💥
+
+[![WhatsApp](https://img.shields.io/badge/Naufrazapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/51929838430) <img src="https://telegra.ph/file/ccf78c050fdaedd562248.mp4" width="30">
