@@ -111,7 +111,7 @@ global.menuImg1 = fs.readFileSync("./NaufraZapp/Naufra1.jpg")
 global.menuImg2 = fs.readFileSync("./NaufraZapp/Naufra2.jpg")
 global.menuImg3 = fs.readFileSync("./NaufraZapp/Naufra3.jpg")
 
-global.nzSticker = fs.readFileSync("./STICKER/Naufra.jpg"
+global.nzSticker = fs.readFileSync("./STICKER/Naufra.jpg")
 
 global.fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 global.fakeChannel = 'https://whatsapp.com/channel/0029VaRibRvDuMRj6ozMSN1l'
