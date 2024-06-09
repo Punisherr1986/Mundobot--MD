@@ -1,6 +1,6 @@
 {
 "name": "NaufraZapp-MD",
-"version": "2.0.0", 
+"version": "2.0.1", 
 "description": "Bot de WhatsApp Multi Device",
 "main": "index.js",
 "type": "module",
@@ -19,7 +19,7 @@
     
 "homepage": "https://github.com/MultiBot-OFC/NaufraZapp-MD",
 "author": {
-"name": "NaufraZapp-Oficial" },
+"name": "NaufraZapp" },
     
 "repository": {
 "type": "git",
