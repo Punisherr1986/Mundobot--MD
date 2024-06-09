@@ -14,8 +14,9 @@ global.owner = [['5493873232212', '𝙈𝙪𝙡𝙩𝙞𝘽𝙤𝙩-𝙊𝙁𝘾
 
 global.contactos = [["5493873232212", '𝙈𝙪𝙡𝙩𝙞𝘽𝙤𝙩-𝙊𝙁𝘾', 1], ["5493873232221", '𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 ╱ 𝙊𝙁𝘾', 1], ["51929838430", '𝙉𝙖𝙪𝙛𝙧𝙖𝙕𝙖𝙥𝙥 ╱ 𝙊𝙁𝘾', 1]]
 
-global.suittag = ['5493873687620'];
-global.prems = ['19145948340'];
+global.suittag = ['5493873687620']
+global.prems = []
+global.mods = []
 
 global.packname = '『🍃 𝙉𝙖𝙪𝙛𝙧𝙖𝙕𝙖𝙥𝙥-𝙈𝘿 🍃』';
 global.stickwm = '『🤖』𝗕𝗢𝗧 𝗪𝗛𝗔:\n\n『🌎』𝗖𝗥𝗘𝗔𝗗𝗢 𝗘𝗡:'
@@ -26,8 +27,10 @@ global.sk = '𝑩𝒐𝒕 𝒃𝒚: 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥';
 global.titulowm = '⋆❲⊹⊰ 𝙉𝙖𝙪𝙛𝙧𝙖𝙕𝙖𝙥𝙥 ⊱⊹❳⋆';
 global.titulowm2 = `⋆ ⌑ 𝙉𝙖𝙪𝙛𝙧𝙖𝙜𝙤 ⌑ ⋆`
 global.igfg = '🅽︎𝗮𝘂𝗳𝗿𝗮🆉𝗮𝗽𝗽︎';
-global.vs = '2.0.0';
-global.vsJB = '1.0.2';
+global.vs = '2.0.1';
+global.vsJB = '0.2.1';
+global.openai_org_id = 'org-3';
+global.openai_key = 'sk-0';
 
 global.ig = ''
 global.md = 'https://github.com/MultiBot-OFC/NaufraZapp-MD'
@@ -132,8 +135,6 @@ global.nzSticker = fs.readFileSync("./STICKER/Naufra.jpg")
   
 var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Linda Mañana'; break; case 1: hour = 'Linda Mañana'; break; case 2: hour = 'Linda Mañana'; break; case 3: hour = 'Linda Mañana'; break; case 4: hour = 'linda mañana'; break; case 5: hour = 'Linda Mañana'; break; case 6: hour = 'Linda Mañana'; break; case 7: hour = 'Linda Mañana'; break; case 8: hour = 'Linda Mañana'; break; case 9: hour = 'Linda Mañana'; break; case 10: hour = 'Lindo Dia'; break; case 11: hour = 'Lindo Dia'; break; case 12: hour = 'Lindo Dia'; break; case 13: hour = 'Lindo Dia'; break; case 14: hour = 'Linda Tarde'; break; case 15: hour = 'Linda Tarde'; break; case 16: hour = 'Linda Tarde'; break; case 17: hour = 'Linda Tarde'; break; case 18: hour = 'Linda Noche'; break; case 19: hour = 'Linda Noche'; break; case 20: hour = 'Linda Noche'; break; case 21: hour = 'Linda Noche'; break; case 22: hour = 'Linda Noche'; break; case 23: hour = 'Linda Noche'; break;}
 global.saludo = '🌎' + hour;
-
-global.mods = [];
 
 global.d = new Date(new Date + 3600000);
 global.locale = 'es';
