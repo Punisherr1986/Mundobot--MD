@@ -13,6 +13,19 @@ const response = await fetch('https://raw.githubusercontent.com/MultiBot-OFC/Nau
 const data = await response.json()
 let { accounts, groups } = data.info
 
+global.ig = accounts.instagram
+global.md = accounts.naufrabot_md
+global.fb = accounts.facebook
+global.paypal = accounts.paypal
+global.cuentaofc = accounts.mail
+global.asistencia = 'https://wa.me/5493873232221'
+global.yt = accounts.all
+global.grupo1 = groups.group1
+global.grupo2 = groups.group2
+global.channel = 'https://whatsapp.com/channel/0029VaRibRvDuMRj6ozMSN1l'
+global.creador = 'https://wa.me/51929838430'
+  
+  
 global.img1 = 'https://i.postimg.cc/Y9t2mzvt/Menu2.jpg'
 global.img2 = 'https://i.postimg.cc/T386DJsB/Menu3.jpg'
 global.img3 = 'https://i.postimg.cc/43sR8Ns5/Menu4.jpg'
@@ -61,17 +74,6 @@ global.waittt = "『✦』▰▰▰▰▰▰▰▱▱▱"
 global.waitttt = "『✦』▰▰▰▰▰▰▰▰▰▰"
 global.waittttt = "『✅』𝙏𝙤𝙙𝙤 𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙤!!!"
 
-global.ig = accounts.instagram
-global.md = accounts.naufrabot_md
-global.fb = accounts.facebook
-global.paypal = accounts.paypal
-global.cuentaofc = accounts.mail
-global.asistencia = 'https://wa.me/5493873232221'
-global.yt = accounts.all
-global.grupo1 = groups.group1
-global.grupo2 = groups.group2
-global.channel = 'https://whatsapp.com/channel/0029VaRibRvDuMRj6ozMSN1l'
-global.creador = 'https://wa.me/51929838430'
 
 global.Allnz = [fb, paypal, grupo1, grupo2, asistencia, ig, md, yt, channel, tiktoknz, creador].getRandom()
 
