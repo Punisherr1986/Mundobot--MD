@@ -34,13 +34,13 @@ global.openai_key = 'sk-0';
 
 global.ig = ''
 global.md = 'https://github.com/MultiBot-OFC/NaufraZapp-MD'
-global.fb = ''
-global.paypal = ''
+global.fb = 'https://www.facebook.com/profile.php?id=100074635035410&mibextid=ZbWKwL'
+global.paypal = 'https://www.paypal.me/naufrazapp'
 global.cuentaofc = ''
 global.asistencia = 'https://wa.me/5493873232221'
-global.yt = 'youtube'
-global.grupo1 = ''
-global.grupo2 = ''
+global.yt = 'https://youtube.com/@naufrazapp_bots?si=aUM9_veoZkcEceOo'
+global.grupo1 = 'https://chat.whatsapp.com/LDUytyPxHLMH7LAjmH2ppr'
+global.grupo2 = 'https://chat.whatsapp.com/CBY978TEw5N10tRhQiapZV'
 global.channel = 'https://whatsapp.com/channel/0029VaRibRvDuMRj6ozMSN1l'
 global.creador = 'https://wa.me/51929838430'
   
