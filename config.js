@@ -102,31 +102,31 @@ global.destraba = `𝘽𝘼𝙎𝙄𝘾 / 𝙏𝙀𝙓𝙏
 > 𝙈𝙪𝙡𝙩𝙞𝘽𝙤𝙩-𝙊𝙁𝘾`
 
 
-global.menusImgs1 = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10].getRandom()
-global.menusImgs2 = [iimg1, iimg2, iimg3, iimg4, iimg5].getRandom()
+global.menusImgs1 = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10]
+global.menusImgs2 = [iimg1, iimg2, iimg3, iimg4, iimg5]
 global.menusImgs3 = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, iimg1, iimg2, iimg3, iimg4, iimg5].getRandom()
-global.menusImgs4 = [imgn1, imgn2, imgn3, imgn4, imgn5, imgn6, imgn7, imgn8, imgn9, imgn10, imgn11, imgn13].getRandom()
-global.redesNZ1 = [cloudshelln, spacenaufra, gp1, gp2, gp3, paypal, creador, channel, yt, md, fb, tiktoknz, ignz].getRandom()
+global.menusImgs4 = [imgn1, imgn2, imgn3, imgn4, imgn5, imgn6, imgn7, imgn8, imgn9, imgn10, imgn11, imgn13]
+global.redesNZ1 = [cloudshelln, spacenaufra, gp1, gp2, gp3, paypal, creador, channel, yt, md, fb, tiktoknz, ignz]
 
 global.nameN1 = '⋆『 𝙉𝙖𝙪𝙛𝙧𝙖𝙕𝙖𝙥𝙥-𝙈𝘿 』⋆'
 global.nameN2 = '⌑【⋆⊱• 𝑵𝒂𝒖𝒇𝒓𝒂𝒁𝒂𝒑𝒑 •⊰⋆】⌑'
 global.nameN3 = '꧁⋆⊰ 𝑵𝒂𝒖𝒇𝒓𝒂𝒁𝒂𝒑𝒑 ⊱⋆꧂'
-global.menusNZ = [nameN1, nameN2, nameN3].getRandom()
+global.menusNZ = [nameN1, nameN2, nameN3]
 
 global.nameNN1 = '⋄ 𝑵𝒂𝒖𝒇𝒓𝒂𝒁𝒂𝒑𝒑 │ ᵇᵒᵗ-ʷʰᵃ ⋄'
 global.nameNN2 = '•⊰➷ 𝑾𝒉𝒂𝒕𝒔𝑨𝒑𝒑 ➸ 𝑩𝒐𝒕 ➹⊱•'
 global.nameNN3 = '␥𝑵𝒂𝒖𝒇𝒓𝒂𝒁𝒂𝒑𝒑␥𝑴𝑫␥'
-global.menusNZ1 = [nameNN1, nameNN2, nameNN3].getRandom()
+global.menusNZ1 = [nameNN1, nameNN2, nameNN3]
 
 global.nameNN4 = '␥ 𝑴𝒆𝒏𝒖 ␥ 𝑪𝒐𝒎𝒑𝒍𝒆𝒕𝒐 ␥'
 global.nameNN5 = '꧁『 𝐌𝐄𝐍𝐔 𝐎𝐅𝐂 』꧂'
 global.nameNN6 = '⟅🌌⋆⊰ 𝐀𝐋𝐋 𝐌𝐄𝐍𝐔 ⊱⋆🌌⟆'
-global.menusNZ2 = [nameNN4, nameNN5, nameNN6].getRandom()
+global.menusNZ2 = [nameNN4, nameNN5, nameNN6]
 
 global.nameNN7 = '␥𝑳𝒊𝒔𝒕𝒂␥𝒅𝒆␥𝑴𝒆𝒏𝒖𝒔␥'
 global.nameNN8 = '⑇ ⌑ ⋆ ⊱•𝑴𝒆𝒏𝒖𝑳𝒊𝒔𝒕•⊰ ⋆ ⌑ ⑇ '
 global.nameNN9 = '✧ ⋆ ⊹ 𝑴𝒆𝒏𝒖𝑳𝒊𝒔𝒕 ⊹ ⋆ ✧ '
-global.menusNZ3 = [nameNN7, nameNN8, nameNN9].getRandom()
+global.menusNZ3 = [nameNN7, nameNN8, nameNN9]
 
 global.menuImg1 = fs.readFileSync("./NaufraZapp/Naufra1.jpg")
 global.menuImg2 = fs.readFileSync("./NaufraZapp/Naufra2.jpg")
