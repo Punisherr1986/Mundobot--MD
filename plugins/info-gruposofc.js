@@ -19,7 +19,7 @@ let str = `*💥 GRUPOS OFICIALES🐦‍🔥*
 *_Unete_*`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 
-handler.command = /^gruponz|linknz|grupoofc|grupooficial$/i
+handler.command = /^grupomb|linkmb|grupoofc|grupooficial$/i
 handler.register = true
 handler.exp = 33
 
