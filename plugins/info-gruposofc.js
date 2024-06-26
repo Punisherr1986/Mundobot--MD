@@ -16,7 +16,7 @@ https://chat.whatsapp.com/J2HUC0jWtec5wtY3OWyzVb
 
   *💥 CANAL OFICIAL🐦‍🔥*
 
-    *_Canal NaufraZapp-MD_*
+    *_Canal MundoBot-MD_*
   *❏ ${channel}*
 *_Unete_*`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
