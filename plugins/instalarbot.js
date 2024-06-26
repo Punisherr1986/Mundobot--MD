@@ -16,7 +16,7 @@ https://Wa.me/+51929838430
 ➪Si en caso no estoy disponible por ese número puedes seguir el canal oficial de WhatsApp del bot donde podrás conseguir el número más actualizado 😏
 https://whatsapp.com/channel/0029VaRibRvDuMRj6ozMSN1l
 
-> saludos de parte de Naufrazapp✌️`.trim();
+saludos de parte de Naufrazapp✌️`.trim();
     if (m.isGroup) {
       conn.sendMessage(m.chat, {text: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm, "containsAutoReply": true, "mediaType": 1, "thumbnail": pp, "mediaUrl": `https://whatsapp.com/channel/0029VaRibRvDuMRj6ozMSN1l`, "sourceUrl": `https://whatsapp.com/channel/0029VaRibRvDuMRj6ozMSN1l`}}}, {quoted: m});
     } else {
