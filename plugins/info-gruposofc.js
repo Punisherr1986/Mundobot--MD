@@ -21,7 +21,7 @@ https://chat.whatsapp.com/J2HUC0jWtec5wtY3OWyzVb
 *_Unete_*`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 
-handler.command = /^grupomb|linkmb|grupoofc|grupooficial$/i
+handler.command = /^grupomb|linkmb|gruposwhatsApp$/i
 handler.register = true
 handler.exp = 33
 
