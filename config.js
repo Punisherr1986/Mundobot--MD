@@ -13,7 +13,7 @@ global.confirmCode = ""
 
 //• ↳𝑷𝑶𝑵 𝑳𝑶𝑺 𝑵𝑼𝑴𝑬𝑹𝑶𝑺 𝑸𝑼𝑬 𝑸𝑼𝑰𝑬𝑹𝑨𝑺
 global.owner = [
-['5493873232212', '🔥 𝙈𝙪𝙡𝙩𝙞𝘽𝙤𝙩-𝙊𝙁𝘾 🔥', true],
+['573108625104', '🔥 Punisher 🔥', true],
 ['5493873232221', '💻 𝙎𝙤𝙥𝙤𝙧𝙩𝙚 💻', true],
 ['51929838430', '🎉 𝙉𝙖𝙪𝙛𝙧𝙖𝙕𝙖𝙥𝙥 🎉', true],
 ['5491133978270'],
@@ -21,7 +21,7 @@ global.owner = [
 
 //• ↳𝑨𝑮𝑹𝑬𝑮𝑨𝑻𝑬 𝑺𝑰 𝑬𝑹𝑬𝑺 𝑶𝑾𝑵𝑬𝑹
 global.contactos = [
-["5493873687620", '🔥 𝘽𝙤𝙩𝙨-𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥-𝙊𝙁𝘾 🔥', 1],
+["573108625104", '🔥 Punisher 🔥', 1],
 ["19145948340", '🛡️ 𝙂𝙪𝙖𝙧𝙙𝙞𝙖𝙣𝘽𝙤𝙩-𝙈𝘿 🛡️', 1],
 ["5491133978270", '🌎 𝙎𝙪𝙥𝙥𝙤𝙧𝙩-𝘽𝙤𝙩𝙨 🌎', 1],
 ["51929838430", '🍃 𝙉𝙖𝙪𝙛𝙧𝙖𝙕𝙖𝙥𝙥-𝙊𝙁𝘾 🍃', 1],
@@ -33,17 +33,17 @@ global.prems = ['19145948340'];
 global.lenguajeSK = es //idioma de sakurabot
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '『🍃 𝙉𝙖𝙪𝙛𝙧𝙖𝙕𝙖𝙥𝙥-𝙈𝘿 🍃』';
+global.packname = '『🍃 𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁-𝙈𝘿 🍃』';
 global.stickwm = '『🤖』𝗕𝗢𝗧 𝗪𝗛𝗔:\n\n『🌎』𝗖𝗥𝗘𝗔𝗗𝗢 𝗘𝗡:'
-global.stickem2 = '❲⊹❳» 🍃 𝑁𝑎𝑢𝑓𝑟𝑎𝑍𝑎𝑝𝑝-𝑀𝐷 🍃\n\n❲⊹❳ » 2️⃣0️⃣2️⃣4️⃣'
-global.author2 = 'NaufraZapp-MD 🪄'
+global.stickem2 = '❲⊹❳» 🍃 𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁-MB 🍃\n\n❲⊹❳ » 2️⃣0️⃣2️⃣4️⃣'
+global.author2 = '𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁'
 global.author3 = '2024 🍂'
-global.author = '𝑵𝒂𝒖𝒇𝒓𝒂𝒈𝒐';
-global.wm = '🍁 𝑵𝒂𝒖𝒇𝒓𝒂𝒁𝒂𝒑𝒑-𝑴𝑫 🍁';
-global.sk = '𝑩𝒐𝒕 𝒃𝒚: 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥';
-global.titulowm = '⋆❲⊹⊰ 𝙉𝙖𝙪𝙛𝙧𝙖𝙕𝙖𝙥𝙥 ⊱⊹❳⋆';
-global.titulowm2 = `⋆ ⌑ 𝙉𝙖𝙪𝙛𝙧𝙖𝙜𝙤 ⌑ ⋆`
-global.igfg = '🅽︎𝗮𝘂𝗳𝗿𝗮🆉𝗮𝗽𝗽︎';
+global.author = '𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁';
+global.wm = '🍁 𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁 🍁';
+global.sk = '𝑩𝒐𝒕 𝒃𝒚: 𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁';
+global.titulowm = '⋆❲⊹⊰ 𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁 ⊱⊹❳⋆';
+global.titulowm2 = `⋆ ⌑ 𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁 ⌑ ⋆`
+global.igfg = '𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁';
 global.vs = '1.9.5';
 global.vsJB = '1.0.2';
 
