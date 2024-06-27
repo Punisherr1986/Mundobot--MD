@@ -946,7 +946,7 @@ export async function handler(chatUpdate) {
         if (!('delete' in chat)) chat.antidelete = false;
         if (!('antisubbots' in chat)) chat.antiBotClone = false;
         if (!('modohorny' in chat)) chat.modohorny = false;
-        if (!('stickers' in chat)) chat.stickers = false;
+        if (!('stickers' in chat)) chat.stickers = true;
         if (!('reaction' in chat)) chat.reaction = false;
         if (!('autosticker' in chat)) chat.autosticker = false;
         if (!('audios' in chat)) chat.audios = true;
@@ -975,7 +975,7 @@ export async function handler(chatUpdate) {
           antidelete: false,
           antisubbots: false,
           modohorny: false,
-          stickers: false,
+          stickers: true,
           reaction: false,
           autosticker: false,
           audios: false,
