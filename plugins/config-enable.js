@@ -134,7 +134,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       chat.modohorny = isEnable;
       break;
-    case 'modoadmin':
+    case 'stickers':
       if (m.isGroup) {
         if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
