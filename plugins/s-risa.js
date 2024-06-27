@@ -36,4 +36,4 @@ const s = [
 'https://i.gifer.com/G0ph.gif',
 'https://telegra.ph/file/f2bd6c6b1dcf9a2811617.jpg',
 'https://i.gifer.com/4q.gif' 
-];  
+];
