@@ -989,6 +989,7 @@ export async function handler(chatUpdate) {
           simi: false,
           game: false,
           expired: 0,
+          stickers: true,
         };
       }
       const settings = global.db.data.settings[this.user.jid];
