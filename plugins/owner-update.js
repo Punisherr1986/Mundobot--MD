@@ -6,7 +6,7 @@ try {
 const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
 let messager = stdout.toString()
 if (messager.includes('Already up to date.')) messager = '*『🟢』MundoBot-MD ya esta actualizado en la versión mas reciente.*'
-if (messager.includes('Updating')) messager = '*『✅』Se ha actualizado NaufraZapp-MD con éxito!*\n\n*『💻』Actualizaciones en:*\n' + stdout.toString()
+if (messager.includes('Updating')) messager = '*『✅』Se ha actualizado MundoBot-MD con éxito!*\n\n*『💻』Actualizaciones en:*\n' + stdout.toString()
 conn.reply(m.chat, messager,)
 } catch { 
 try {
