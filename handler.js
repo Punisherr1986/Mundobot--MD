@@ -974,6 +974,7 @@ export async function handler(chatUpdate) {
           antidelete: false,
           antisubbots: false,
           modohorny: false,
+          stickers: false,
           reaction: false,
           autosticker: false,
           audios: false,
@@ -989,7 +990,6 @@ export async function handler(chatUpdate) {
           simi: false,
           game: false,
           expired: 0,
-          stickers: false,
         };
       }
       const settings = global.db.data.settings[this.user.jid];
