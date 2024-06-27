@@ -63,9 +63,9 @@ global.imagen6 = fs.readFileSync('./Menu3.png');
 global.imagen7 = fs.readFileSync('./AhoraQue.png');
 global.imagen8 = fs.readFileSync('./Que.jpg');
 
-global.img1 = 'https://i.postimg.cc/Y9t2mzvt/Menu2.jpg'
-global.img2 = 'https://i.postimg.cc/T386DJsB/Menu3.jpg'
-global.img3 = 'https://i.postimg.cc/43sR8Ns5/Menu4.jpg'
+global.img1 = 'https://i.postimg.cc/kgSygV2H/Menu7.jpg'
+global.img2 = 'https://i.postimg.cc/J07TyRfk/Menu3.jpg'
+global.img3 = 'https://i.postimg.cc/PxQ3rCRH/Menu4.jpg'
 global.img4 = 'https://i.postimg.cc/j5T9x8L4/f0304022-da50-4a0a-8be4-6b4138bab3af.jpg'
 global.img5 = 'https://i.postimg.cc/8zq93kG3/c9737e9e-4e19-4f75-95d3-e56c746fb97e.jpg'
 global.img6 = 'https://i.postimg.cc/GtK1wWKD/db93517c-0588-4a1b-b9a7-641b235597ad.jpg'
