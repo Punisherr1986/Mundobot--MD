@@ -139,6 +139,15 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
         if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
           throw false;
+          }
+      }
+      chat.stickers = isEnable;
+      break;
+    case 'modoadmin':
+      if (m.isGroup) {
+        if (!(isAdmin || isROwner || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
         }
       }
       chat.modoadmin = isEnable;
