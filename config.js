@@ -106,20 +106,20 @@ global.iimg4 = 'https://i.postimg.cc/WzfQTDd3/Menu.jpg'
 global.iimg5 = 'https://i.postimg.cc/WzfQTDd3/Menu.jpg'
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.spacenaufra = 'https://wa.me/5493873687620'
+global.spacenaufra = 'https://wa.me/573108625104'
 global.cloudshelln = 'https://shell.cloud.google.com/?show=ide%2Cterminal&authuser=6&fromcloudshell=true'
 global.gp1 = 'https://chat.whatsapp.com/IxdHYBEnUJ5Eiu3qiDjCTa'
 global.gp2 = 'https://chat.whatsapp.com/IxdHYBEnUJ5Eiu3qiDjCTa'
-global.gp3 = 'https://whatsapp.com/channel/0029VaRibRvDuMRj6ozMSN1l'
+global.gp3 = 'https://whatsapp.com/channel/0029Va6GrhF17EmnN4eF5F25'
 global.channel = 'https://whatsapp.com/channel/0029Va6GrhF17EmnN4eF5F25'
-global.paypal = 'https://www.paypal.me/NaufragoSolano'
-global.creador = 'https://wa.me/51929838430'
-global.yt = 'https://youtube.com/@user-bw5wl4ye8r?si=qN8bP4ZdKm3yXwbx'
-global.md = 'https://github.com/Bots-WhatsApp-OFC'
+global.paypal = 'https://www.paypal.me/'
+global.creador = 'https://wa.me/573108625104'
+global.yt = 'https://youtube.com/'
+global.md = 'https://github.com/bot'
 global.fb = 'https://www.facebook.com/share/8XyV52kz3sfhrzft/?mibextid=qi2Omg'
-global.tiktoknz = 'https://www.tiktok.com/@naufra.zapp?_t=8kcJigwvtji&_r=1'
-global.ignz = 'https://www.instagram.com/naufrazapp?igsh=Y2g1ZXJxbm53eXAy'
-global.asistencia = 'https://wa.me/5493873687620'
+global.tiktoknz = 'https://www.tiktok.com/@MundoBot'
+global.ignz = 'https://www.instagram.com/MundoBot'
+global.asistencia = 'https://wa.me/573108625104'
 
 global.menusImgs1 = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10]
 global.menusImgs2 = [iimg1, iimg2, iimg3, iimg4, iimg5]
@@ -165,7 +165,7 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 global.wm2 = `${dia} ${fecha}\nNaufraZapp-MD`;
 global.gt = '𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁-𝙈𝘿';
 global.mysticbot = '𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁-𝙈𝘿';
-global.mysticbot = 'https://github.com/Bots-WhatsApp-OFC';
+global.mysticbot = 'https://github.com/mundobot';
 global.nomorown = '5493873687630';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
