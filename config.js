@@ -35,7 +35,7 @@ global.lenguajeSK = es //idioma de sakurabot
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
 global.packname = '『🍃 𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁-𝙈𝘿 🍃』';
 global.stickwm = '『🤖』𝗕𝗢𝗧 𝗪𝗛𝗔:\n\n『🌎』𝗖𝗥𝗘𝗔𝗗𝗢 𝗘𝗡:'
-global.stickem2 = '❲⊹❳» 🍃 𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁-MB 🍃\n\n❲⊹❳ » 2️⃣0️⃣2️⃣4️⃣'
+global.stickem2 = '❲⊹❳» 🍃 𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁-𝙈𝘿 🍃\n\n❲⊹❳ » 2️⃣0️⃣2️⃣4️⃣'
 global.author2 = '𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁'
 global.author3 = '2024 🍂'
 global.author = '𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁';
@@ -127,14 +127,14 @@ global.menusImgs3 = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10
 global.menusImgs4 = [imgn1, imgn2, imgn3, imgn4, imgn5, imgn6, imgn7, imgn8, imgn9, imgn10, imgn11, imgn13]
 global.redesNZ1 = [cloudshelln, spacenaufra, gp1, gp2, gp3, paypal, creador, channel, yt, md, fb, tiktoknz, ignz]
 
-global.nameN1 = '⋆『 𝙉𝙖𝙪𝙛𝙧𝙖𝙕𝙖𝙥𝙥-𝙈𝘿 』⋆'
-global.nameN2 = '⌑【⋆⊱• 𝑵𝒂𝒖𝒇𝒓𝒂𝒁𝒂𝒑𝒑 •⊰⋆】⌑'
-global.nameN3 = '꧁⋆⊰ 𝑵𝒂𝒖𝒇𝒓𝒂𝒁𝒂𝒑𝒑 ⊱⋆꧂'
+global.nameN1 = '⋆『 𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁-𝙈𝘿 』⋆'
+global.nameN2 = '⌑【⋆⊱• 𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁-𝙈𝘿 •⊰⋆】⌑'
+global.nameN3 = '꧁⋆⊰ 𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁-𝙈𝘿 ⊱⋆꧂'
 global.menusNZ = [nameN1, nameN2, nameN3]
 
 global.nameNN1 = '⋄ 𝑵𝒂𝒖𝒇𝒓𝒂𝒁𝒂𝒑𝒑 │ ᵇᵒᵗ-ʷʰᵃ ⋄'
 global.nameNN2 = '•⊰➷ 𝑾𝒉𝒂𝒕𝒔𝑨𝒑𝒑 ➸ 𝑩𝒐𝒕 ➹⊱•'
-global.nameNN3 = '␥𝑵𝒂𝒖𝒇𝒓𝒂𝒁𝒂𝒑𝒑␥𝑴𝑫␥'
+global.nameNN3 = '␥𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁-𝙈𝘿␥'
 global.menusNZ1 = [nameNN1, nameNN2, nameNN3]
 
 global.nameNN4 = '␥ 𝑴𝒆𝒏𝒖 ␥ 𝑪𝒐𝒎𝒑𝒍𝒆𝒕𝒐 ␥'
@@ -163,8 +163,8 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nNaufraZapp-MD`;
-global.gt = 'NaufraZapp-MD';
-global.mysticbot = 'NaufraBot';
+global.gt = '𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁-𝙈𝘿';
+global.mysticbot = '𝗠𝘂𝗻𝗱𝗼𝗕𝗼𝘁-𝙈𝘿';
 global.mysticbot = 'https://github.com/Bots-WhatsApp-OFC';
 global.nomorown = '5493873687630';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
