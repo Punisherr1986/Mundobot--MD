@@ -8,7 +8,7 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
   if (!enviando) enviando = true
   try {
     await m.reply(`_*Descargando...*_`);
-    const d2ata = await fetch(`${global.MyApiRestBaseUrl}/api/facebook?url=${args[0]}&apikey=${global.MyApiRestApikey}`);
+    const d2ata = await facebook.v1(args[0]);
     const r2es = await d2ata.json();
     let linkdl = '';  
     if (r2es?.status === true) {
