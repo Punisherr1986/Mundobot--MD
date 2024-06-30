@@ -9,7 +9,9 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
   try {
     await m.reply(`_*Descargando...*_`);
     const d2ata = await facebook.v1(args[0]);
-    const r2es = await d2ata.json();
+    try { 
+await conn.reply(m.chat, `${lenguajeGB['smsAvisoEG']()}${mid.smsfb2}`, fkontak, m)
+const d2ata = await facebook.v1(args[0]);
     let linkdl = '';  
     if (r2es?.status === true) {
       linkdl = `${r2es.resultado.data}`;
